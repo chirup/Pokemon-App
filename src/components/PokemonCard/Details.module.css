@@ -1,0 +1,21 @@
+.detailsSection {
+  background: lightgoldenrodyellow;
+}
+.detailsSection > div {
+  padding: 0.5rem 0;
+}
+.detailsSection h3 {
+  margin: 0.5rem 0;
+}
+
+.detailsSection p {
+  margin: 0.25rem 0;
+}
+
+.detailsSection .abilities {
+  border-top: 1px solid #d8d8d8;
+}
+
+.detailsSection .abilities h4 {
+  margin: 0.5rem 0;
+}

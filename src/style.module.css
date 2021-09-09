@@ -1,0 +1,10 @@
+.contentWidth {
+    max-width: 1048px;
+    margin: 0 auto;
+}
+
+.appContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px,1fr));
+    gap:1rem 1rem;
+}

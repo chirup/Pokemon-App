@@ -1,0 +1,10 @@
+.imageCard {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 0.5rem;
+}
+.imageCard img {
+  width: 100px;
+  height: 100px;
+}
