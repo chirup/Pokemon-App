@@ -44,6 +44,7 @@ function App() {
 
   return (
     <div className={style.contentWidth}>
+      <h1>Pokemon App</h1>
       <Pagination previous={previous} next={next} setUrl={setUrl} url={url} />
       <div className={style.appContainer}>
         {loading ? (

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import style from "./style.module.css";
 import PaginationButtons from "./PaginationButtons";
-const Pagination = ({ next, previous, setUrl, url }) => {
+const Pagination = ({ next, previous, setUrl, url = "" }) => {
   const [defaultPageCounts] = useState([10, 20, 50]);
   const defaultUrl = "https://pokeapi.co/api/v2/pokemon";
   const urlObj = new URL(url);
@@ -9,7 +9,7 @@ const Pagination = ({ next, previous, setUrl, url }) => {
   const limitParam = urlObj.searchParams.get("limit");
 
   return (
-    <div className={style.paginationContainer}>
+    <div className={style.paginationContainer} data-testid="pagination">
       <PaginationButtons previous={previous} next={next} setUrl={setUrl} />
       <div className={style.offSetButtons}>
         {defaultPageCounts.map((perPageCount) => (
