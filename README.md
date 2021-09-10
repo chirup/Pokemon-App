@@ -73,19 +73,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Features Implemeted
 
-Create a web application to list all Pokémon and show paginated results
-User should be shown the Pokémons in a card-based layout (click to see best practices)
-Each card should contain the image of the Pokémon
-Name
-Height
-Weight
-List of abilities.
-User should have option to choose the number of cards available per page available options are 10, 20 and 50
-User should be shown previous and next links - on both the top and the bottom of the page
-Page refresh should maintain the sorting and search related data.
+1. Create a web application to list all Pokémon and show paginated results
+2. User should be shown the Pokémons in a card-based layout (click to see best practices)
+3. Each card should contain the image of the Pokémon  
+   Name  
+   Height  
+   Weight  
+   List of abilities.
+4. User should have option to choose the number of cards available per page available options are 10, 20 and 50
+5. User should be shown previous and next links - on both the top and the bottom of the page
+6. Page refresh should maintain the sorting and search related data.
 
 # Features Missed
 
-User should be able to search through the Pokémon list using the name and abilities
-User should be able to sort the result by name, height and weight.
-User should be taken to the details page and present all the information available for that Pokémon. The user should have a link to go back to the previous page.
+7. User should be able to search through the Pokémon list using the name and abilities
+8. User should be able to sort the result by name, height and weight.
+9. User should be taken to the details page and present all the information available for that Pokémon. The user should have a link to go back to the previous page.
